@@ -4,9 +4,9 @@ import './Pokecard.css'
 class Pokecard extends React.Component{
 
     render(){
-
+    
         const {id, name, type, exp} = this.props;
-
+    
         return(
             <div className="col-sm-3">
                 <div className="Pokecard col-sm-12">
@@ -22,7 +22,6 @@ class Pokecard extends React.Component{
             </div>
         );
     }
-
 }
 
 export default Pokecard;

@@ -3,8 +3,13 @@ import {Route, Switch} from 'react-router-dom'
 import './index.css';
 import './App.css';
 import Pokegame from './Pokegame.js'
+import Footer from './Footer.js'
 
 class App extends React.Component {
+
+  someMethod(){
+    this.forceUpdate()
+  }
 
   render(){
 
@@ -25,7 +30,9 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" render={() => <Pokegame object={object}/>} />
         </Switch>
+        <Footer />
       </div>
+      
     );
   }
 }
