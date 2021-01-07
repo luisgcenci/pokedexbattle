@@ -1,0 +1,21 @@
+.Button{
+    font-size:20px;
+    background-color:#EF482F;
+    border:0.01em solid #F63C2A;
+    color:#F1E5E0;
+    font-weight:bold;
+}
+
+.Button:hover{
+    background-color:#EF482F;
+    border:0.05em solid #F63C2A;
+    color:#ffffff;
+}
+
+Button:focus{
+    box-shadow: none !important;
+}
+
+Button:active{
+    background-color:#0BE35A !important;
+}

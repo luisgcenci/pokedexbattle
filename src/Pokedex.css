@@ -1,0 +1,20 @@
+.Pokedex-pokecards{
+    color:black;
+}
+
+.Pokedex-winner{
+    margin-top:15px;
+    text-align:center;
+    color:#06E54E;
+}
+
+.Pokedex-loser{
+    margin-top:15px;
+    text-align:center;
+    color:#EF0F07;
+}
+
+.Pokedex-info{
+    text-align:center;
+    margin-bottom:20px;
+}
