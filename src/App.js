@@ -21,7 +21,7 @@ class App extends React.Component {
 
     return (
       <div className="App container">
-        <h1 className="App-header">Pokedex Battle e</h1>
+        <h1 className="App-header">Pokedex Battle ee</h1>
         <Switch>
           <Route exact path="/" render={() => <Pokegame object={object}/>} />
         </Switch>
